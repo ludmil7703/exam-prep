@@ -20,6 +20,6 @@ jobs:
         node-version: 18.x
         cache: 'npm'
     - name: Install project dependencies
-    - run: npm install
+      run: npm install
     - name: Run unit test for the application
-    - run: npm run test:unit
+      run: npm run test:unit
